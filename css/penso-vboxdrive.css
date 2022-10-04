@@ -2139,17 +2139,16 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
   margin-bottom: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -2171,6 +2170,9 @@ blockquote {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   grid-row-gap: 1em;
 }
 
@@ -2835,10 +2837,6 @@ blockquote {
     min-height: 35em;
   }
 
-  .form-inputs {
-    margin-bottom: 0px;
-  }
-
   .text-block-5 {
     font-size: 1.5rem;
   }
@@ -3176,10 +3174,6 @@ blockquote {
 
   .grid-form {
     min-height: 50em;
-  }
-
-  .form-inputs {
-    width: 100%;
   }
 
   .text-field {
@@ -3934,6 +3928,10 @@ blockquote {
 
   .iss-50 {
     width: 100%;
+  }
+
+  .form-inputs {
+    font-size: 1em;
   }
 
   .text-field {
